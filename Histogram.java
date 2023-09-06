@@ -1,5 +1,6 @@
 import java.util.* ;
 class Histogram {
+  //O(n^2) time complexity
   public static void main(String[] args) {
     // System.out.println("Hello world!");
 
