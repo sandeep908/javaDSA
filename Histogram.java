@@ -10,12 +10,12 @@ class Histogram {
     for(int i=0 ;i<n ;i++){
       int count=1 ,num = arr[i] ;
       int j=i-1;
-      while(j>0 && num<=arr[j]){
+      while(j>=0 && num<=arr[j]){
         count++ ;
         j-- ;
       }
       j=i+1;
-      while(j<n-1 && num<=arr[j]){
+      while(j<=n-1 && num<=arr[j]){
         count++ ;
         j++;
       }
